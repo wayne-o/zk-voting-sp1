@@ -1,0 +1,208 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.App-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.App-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wallet-connect {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.wallet-connect button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.wallet-connect button:hover {
+  background: #45a049;
+}
+
+.wallet-connect button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.wallet-info p {
+  margin-bottom: 1rem;
+}
+
+.voting-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.voting-form h2 {
+  margin-top: 0;
+}
+
+.candidates {
+  margin: 1.5rem 0;
+}
+
+.candidate-option {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.candidate-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.candidate-option input[type="radio"] {
+  margin-right: 1rem;
+}
+
+.candidate-info {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.candidate-info strong {
+  font-size: 1.1rem;
+}
+
+.candidate-info span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.voting-form button[type="submit"] {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.voting-form button[type="submit"]:hover:not(:disabled) {
+  background: #45a049;
+}
+
+.voting-form button[type="submit"]:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.results-display {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.results-display h2 {
+  margin-top: 0;
+}
+
+.total-votes {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.result-item {
+  margin-bottom: 1.5rem;
+}
+
+.candidate-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.result-bar {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.result-fill {
+  background: #4CAF50;
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+.result-text {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.error-message {
+  background: #f44336;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.success-message {
+  background: #4CAF50;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.success-message h3 {
+  margin-top: 0;
+}
+
+.privacy-notice {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.privacy-notice h3 {
+  margin-top: 0;
+}
